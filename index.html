@@ -5,12 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>..::Yasir::..</title>
+    <title>..::Test::..</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/prettyPhoto.css" rel="stylesheet">
-    <link href="css/price-range.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet">
 	<link href="css/responsive.css" rel="stylesheet">
     <!--[if lt IE 9]>
@@ -22,6 +18,118 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+
+	<script>
+	function diphereaTreatment()
+	{
+		$("#showDiphereaTreatmen").show(1000);
+	}
+	function typhoidTreatment()
+	{
+		$("#showTyphoidTreatmen").show(1000);
+	}
+	function malariaTreatment()
+	{
+		$("#showMalariaTreatmen").show(1000);
+	}
+	function dengueTreatment()
+	{
+		$("#showDengueTreatmen").show(1000);
+	}
+	
+	
+	function loadMore1()
+	{
+		$("#loadmorebutton1").hide(1000);
+		$("#loadmore1Div").show(1000);
+	}
+	
+	function loadMore2()
+	{
+		$("#loadmorebutton2").hide(1000);
+		$("#loadmore2Div").show(1000);
+	}
+	
+	function loadMore3()
+	{
+		$("#loadmorebutton3").hide(1000);
+		$("#loadmore3Div").show(1000);
+	}
+	
+	function loadMore4()
+	{
+		$("#loadmorebutton4").hide(1000);
+		$("#loadmore4Div").show(1000);
+	}
+	
+	
+	</script>
+	<style>
+	body
+	{
+		 /*background: rgba(0, 0, 0, 0) url("back.png") no-repeat scroll center top / cover ;*/
+		/* background: rgba(0, 0, 0, 0) url("back.png") no-repeat scroll 0 0 / 120% auto;*/
+		 color:#FFFFFF !important;
+		 background-color:skyblue;
+		 
+	}
+	.accordionButton
+	{
+		width:100%;
+		float:left;
+		background:#80C347;
+		border-bottom: 1px solid #FFFFFF;
+		cursor: pointer;
+		padding:3px 0px;
+	}
+.accordionButton span
+ {
+		color:#FFFFFF;
+		padding-left:5px;
+		font-weight:bold;
+}
+.accordionContent 
+{
+    width:100%;
+    float:left;
+    background:#FFFFFF;
+}
+.accordionContent p {
+    color:#333333;
+    font-size:14px;
+    padding-left:8px;}
+.on {
+    width:100%;
+    float:left;
+    background:#555555;
+    cursor:pointer;}
+    .on span {color:#FFFFFF;}
+.over {
+    width:100%;
+    float:left;
+    background:#555555;
+    cursor:pointer;}
+    .over span {color:#FFFFFF;}
+.plusMinus {
+    font-weight:bold;
+    float:right;
+    padding-right:4px;
+    content:"+";}
+	
+	.treatment li
+	{
+		list-style:disc;
+	}
+	.load_more
+	{
+		font-weight:bold;
+		color:#FFFFFF;
+	}
+	
+	/*background: rgba(0, 0, 0, 0) url("back.png") no-repeat scroll 0 0 / 120% auto;*/
+	
+	
+	</style>
 </head><!--/head-->
 
 <body>
@@ -31,197 +139,162 @@
 
 	<section id="do_action">
 		<div class="container">
-			<div class="heading">
-				<h3>Project Name</h3>
-				<p>Some description will goes here.Choose if you have a discount code or reward points you want to use or would like to estimate your delivery cost
-				Choose if you have a discount code or reward points you want to use or would like to estimate your delivery costChoose if you have a discount code or reward points you want to use or would like to estimate your delivery costChoose if you have a discount code or reward points you want to use or would like to estimate your delivery cost.</p>
+			<div style="margin:0 auto;">
+			<div class="heading" style="color:#FFFFFF">
+				<h3>Test App</h3>
+				<p>Click on disease to view treatment.</p>
 			</div>
 			<div class="row">
 			 <div class=" chose_area col-sm-12">
 			  <div>
-				<div class="col-sm-4">
+				<div class="col-sm-12">
 						<ul class="user_option">
 						
 							<li>
-								<span style="font-size:22px;">Please select syptoms</span>
-							</li>
-							<li>
-								<input type="checkbox">
-								<label>Sudden onset of high fever</label>
-							</li>
-							<li>
-								<input type="checkbox">
-								<label>chills</label>
-							</li>
-							<li>
-								<input type="checkbox">
-								<label>severe </label>
-							</li>
-							<li>
-								<input type="checkbox">
-								<label>myalgias and arthralgias</label>
-							</li>
-							<li>
-								<input type="checkbox">
-								<label>headache</label>
-							</li>
-							<li>
-								<input type="checkbox">
-								<label>sore throat</label>
-							</li>
-							<li>
-								<input type="checkbox">
-								<label>depression</label>
-							</li>
-							<li>
-								<input type="checkbox">
-								<label>Intermittent attacks of chills</label>
-							</li>
-							<li>
-								<input type="checkbox">
-								<label>fever</label>
-							</li>
-
-						</ul>
-				</div>
-				<div class="col-sm-4">
-					
-						<ul class="user_option">
-							
-							<li>
-								&nbsp;
-							</li>
-							<li>
-								&nbsp;
-							</li>
-							<li>
-								<input type="checkbox">
-								<label>sweating</label>
-							</li>
-							<li>
-								<input type="checkbox">
-								<label>Headache</label>
-							</li>
-							<li>
-								<input type="checkbox">
-								<label>Estimate Shipping & Taxes</label>
-							</li>
-							<li>
-								<input type="checkbox">
-								<label>myalgia</label>
-							</li>
-							<li>
-								<input type="checkbox">
-								<label>vomiting</label>
-							</li>
-							<li>
-								<input type="checkbox">
-								<label>splenomegaly</label>
-							</li>
-							<li>
-								<input type="checkbox">
-								<label>anemia</label>
-							</li>
-							<li>
-								<input type="checkbox">
-								<label>thrombocytopenia</label>
-							</li>
-							<li>
-								<input type="checkbox">
-								<label>Watery</label>
-							</li>
-						</ul>
+								<span style="font-size:18px;">Please select diseases</span>
+								
+									<div class="flowers" style="display:block" id="showResult">
 									
-				</div>
-				<div class="col-sm-4">
-				
-						<ul class="user_option">
-						
-							<li>
-								&nbsp;
+									<div class="flower" data-id="gorse" data-category="Watery_nonbloody Usually_mild_self_limited Caused_by_a_virus_or_noninvasive_bacteria">
+										<div class="accordionButton">
+											<span>Diarrhea</span><span class="plusMinus">+</span>
+										</div>
+										<div class="accordionContent">
+											<p>
+												<ul class="treatment">
+													<li>Frequent feedings of tea.</li>
+													<li>Flat carbonated beverages.</li>
+													<li>Soft, easily digested foods like soups, crackers, bananas, applesauce, rice, toast etc is recommened.</li>
+													<li>fluids containing glucose, Na , K , and Cl bicarbonate or citrate is preferred.</li>
+													<li>Loperamide 4 mg, Bismuth subsalicylate (Pepto-Bismol), two tablets or 30 mL.</li>
+													
+												</ul>
+											</p>
+										</div>
+									</div>
+									<div class="flower" data-id="gorse" data-category="Gradual_onset_of_malaise Headache Nausea Vomiting  Abdominal_Pain Rose_spots Splenomegaly  Abdominal_Distention_and_Tenderness Slow_stepladder_rise_of_fever_to_maximum_and_then_slow_return_to_normal">
+										<div class="accordionButton">
+											<span>Typhoid Fever</span><span class="plusMinus">+</span>
+										</div>
+										<div class="accordionContent">
+											<p>
+												<ul class="treatment">
+													<li>Ciprofloxacin 750 mg orally twice daily.</li>
+													<li>Ceftriaxone 2 g intravenously for 7 days.</li>
+													<li>Azithromycin 500 mg orally for 7 days.</li>
+													<li>Ciprofloxacin, 750 mg orally twice a day for 4 weeks.</li>
+												</ul>
+											</p>
+										</div>
+									</div>
+									<div class="flower" data-id="gorse" data-category="Intermittent_attacks_of_chills Fever Headache Vomiting Sweating Myalgia Anemia Hypotension Splenomegaly Thick_or_thin_blood_smears Hypoglycemia_acidosis_and_hemolysis ">
+										<div class="accordionButton">
+											<span>Malaria</span><span class="plusMinus">+</span>
+										</div>
+										<div class="accordionContent">
+											<p>
+												<ul class="treatment">
+													<li>Amodiaquine.</li>
+													<li>Chloroquine.</li>
+													<li>Quinine.</li>
+													<li>Mefloquine.</li>
+													<li>Primaquine.</li>
+													<li>Doxycycline. </li>
+													
+												</ul>
+											</p>
+										</div>
+									</div>
+									<div class="flower" data-id="gorse" data-category="Sudden_onset_of_high_fever Chills Severe_myalgias_and_arthralgias Headache_sore_throat_and_depression Biphasic_fever_curve_initial_phase_3_7_days_remission_few_hours_to_2_days_second_phase_1_2_days">
+										<div class="accordionButton">
+											<span>Dengue</span><span class="plusMinus">+</span>
+										</div>
+										<div class="accordionContent">
+											<p>
+												<ul class="treatment">
+													<li>Endoscopic therapy is useful.</li>
+													<li>Monitoring vital signs and blood volume may help in anticipating the complications.</li>
+													<li>Platelet counts not usefull.</li>
+													<li>As soon as possible, admit to the hospital because Dengue is still under study.</li>
+												</ul>
+											</p>
+										</div>
+									</div>
+									
+									</div>
 							</li>
-							<li>
-								&nbsp;
-							</li>
-							<li>
-								<input type="checkbox">
-								<label>nonbloody</label>
-							</li>
-							<li>
-								<input type="checkbox">
-								<label>Usually mild</label>
-							</li>
-							<li>
-								<input type="checkbox">
-								<label>self-limited</label>
-							</li>
-							<li>
-								<input type="checkbox">
-								<label>Gradual onset of malaise</label>
-							</li>
-							<li>
-								<input type="checkbox">
-								<label>headache</label>
-							</li>
-							<li>
-								<input type="checkbox">
-								<label>nausea</label>
-							</li>
-							<li>
-								<input type="checkbox">
-								<label>vomiting</label>
-							</li>
-							<li>
-								<input type="checkbox">
-								<label>abdominal pain</label>
-							</li>
-							<li>
-								<input type="checkbox">
-								<label>Rose spots</label>
-							</li>
+							</ul>
+							<form id="formOne">
+							<ul class="user_option">
+								<li>
+								<span style="font-size:18px;">Please select syptoms</span>
+								</li>
+								<li><label style="font-size:12px;"><input type="checkbox" name="fl-colour" value="Watery_nonbloody" id="Watery_nonbloody" /> Watery, Nonbloody</label></li>
+								<li><label style="font-size:12px;"><input type="checkbox" name="fl-colour" value="Usually mild_self_limited" id="Usually_mild_self-limited" /> Usually mild, self-limited</label></li> 								<li><label style="font-size:12px;"><input type="checkbox" name="fl-colour" value="Caused_by_a_virus_or_noninvasive_bacteria" id="Caused_by_a_virus_or_noninvasive_bacteria" /> Caused by a virus or noninvasive bacteria</label></li>    
+								
+								 <!------------------------------Diphrea Ends Here------------------------->              
+								<li><label style="font-size:12px;"><input type="checkbox" name="fl-colour" value="Gradual_onset_of_malaise" id="Gradual_onset_of_malaise" /> Gradual onset of malaise</label></li>
+								<li><label style="font-size:12px;"><input type="checkbox" name="fl-colour" value="Headache" id="Headache" /> Headache</label></li>  
+								<li><label style="font-size:12px;"><a class="load_more"  href="javascript:" onClick="return loadMore1();" id="loadmorebutton1">Load More</li>
+								<div id="loadmore1Div" style="display:none">
+								<li><label style="font-size:12px;"><input type="checkbox" name="fl-colour" value="Nausea" id="Nausea" /> Nausea</label></li>
+								<li><label style="font-size:12px;"><input type="checkbox" name="fl-colour" value="Vomiting" id="Vomiting" /> Vomiting</label></li>
+								<li><label style="font-size:12px;"><input type="checkbox" name="fl-colour" value="Abdominal_Pain" id="Abdominal_Pain" /> Abdominal Pain</label></li>  
+								<li><label style="font-size:12px;"><input type="checkbox" name="fl-colour" value="Rose_spots" id="Rose_spots" /> Rose spots</label></li>
+								<li><label style="font-size:12px;"><input type="checkbox" name="fl-colour" value="Splenomegaly" id="Splenomegaly" /> Splenomegaly</label></li>
+								<li><label style="font-size:12px;"><a class="load_more" href="javascript:" onClick="return loadMore2();" id="loadmorebutton2">Load More</li>
+								</div>
+								
+								<div id="loadmore2Div"  style="display:none">
+								<li><label style="font-size:12px;"><input type="checkbox" name="fl-colour" value="Abdominal_Distention_and_Tenderness" id="Abdominal_Distention_and_Tenderness" /> Abdominal Distention and Tenderness</label></li>  
+								<li><label style="font-size:12px;"><input type="checkbox" name="fl-colour" value="Slow_stepladder_rise_of_fever_to_maximum_and_then_slow_return_to_normal" id="Slow_stepladder_rise_of_fever_to_maximum_and_then_slow_return_to_normal" /> Slow (stepladder) rise of fever to maximum and then slow return to normal</label></li>
+								
+								<!------------------------------Typhoid Ends Here------------------------->   
+								
+								
+								
+								<li><label style="font-size:12px;"><input type="checkbox" name="fl-colour" value="Intermittent_attacks_of_chills" id="Intermittent_attacks_of_chills" /> Intermittent attacks of chills</label></li>
+								<li><label style="font-size:12px;"><input type="checkbox" name="fl-colour" value="Fever" id="Fever" /> Fever</label></li>  
+								<li><label style="font-size:12px;"><input type="checkbox" name="fl-colour" value="Sweating" id="Sweating" /> Sweating</label></li>
+								<li><label style="font-size:12px;"><a class="load_more" href="javascript:" onClick="return loadMore3();" id="loadmorebutton3">Load More</li>
+								</div>
+								
+								
+								<div id="loadmore3Div"  style="display:none">
+								<li><label style="font-size:12px;"><input type="checkbox" name="fl-colour" value="Myalgia" id="Myalgia" /> Myalgia</label></li>
+								<li><label style="font-size:12px;"><input type="checkbox" name="fl-colour" value="Anemia" id="Anemia" /> Anemia</label></li>  
+								<li><label style="font-size:12px;"><input type="checkbox" name="fl-colour" value="Hypotension" id="Hypotension" /> Hypotension</label></li>
+								<li><label style="font-size:12px;"><input type="checkbox" name="fl-colour" value="Splenomegaly" id="Splenomegaly" /> Splenomegaly</label></li>
+								<li><label style="font-size:12px;"><input type="checkbox" name="fl-colour" value="Thick_or_thin_blood_smears" id="Thick_or_thin_blood_smears" /> Thick or thin blood smears</label></li>
+								<li><label style="font-size:12px;"><a  class="load_more" href="javascript:" onClick="return loadMore4();" id="loadmorebutton4">Load More</li>
+								</div>
+								
+								<div id="loadmore4Div"  style="display:none">
+								<li><label style="font-size:12px;"><input type="checkbox" name="fl-colour" value="Hypoglycemia_acidosis_and_hemolysis" id="Hypoglycemia_acidosis_and_hemolysis" /> Hypoglycemia, acidosis, and hemolysis</label></li>
+								
+								<!------------------------------Malaria Ends Here------------------------->   
+								
+								<li><label style="font-size:12px;"><input type="checkbox" name="fl-colour" value="Sudden_onset_of_high_fever" id="Sudden_onset_of_high_fever" /> Sudden onset of high fever</label></li>
+								<li><label style="font-size:12px;"><input type="checkbox" name="fl-colour" value="Chills" id="Chills" /> Chills</label></li>  
+								<li><label style="font-size:12px;"><input type="checkbox" name="fl-colour" value="Severe_myalgias_and_arthralgias" id="Severe_myalgias_and_arthralgias" /> Severe myalgias and arthralgias</label></li>
+								<li><label style="font-size:12px;"><input type="checkbox" name="fl-colour" value="Headache_sore_throat_and_depression" id="Headache_sore_throat_and_depression" /> Headache, sore throat, and depression</label></li>
+								<li><label style="font-size:12px;"><input type="checkbox" name="fl-colour" value="Biphasic_fever_curve_initial_phase_3_7_days_remission_few_hours_to_2_days_second_phase_1_2_days" id="Biphasic_fever_curve_initial_phase_3_7_days_remission_few_hours_to_2_days_second_phase_1_2_days" /> Biphasic fever curve: initial phase, 3–7 days; remission, few hours to 2 days; second phase, 1–2 days</label></li>
+								</div>  
+							<!------------------------------Dengue Ends Here-------------------------> 	
+										
 						</ul>
-						
-						<a class="btn btn-default update" href="javascript:" onClick="diognose()">Diagnose</a>
-					
+						</form>
 				</div>
+				
 			  </div>
 			 </div>
 			</div>
-			<div class="row" style="display:none" id="diognoseDiv">
-				<div class="col-sm-6">
-					<div class="total_area">
-						
-						<ul>
-							<span style="font-size:22px; float:left">Diseases</span><br />
-							<li><b>Malaria</b> </li>
-							
-						</ul>
-							
-							
-					</div>
-				</div>
-				<div class="col-sm-6">
-					<div class="total_area">
-						<ul>
-							
-								<span style="font-size:22px; float:left">Treatment</span> <br />
-							
-							<li>Amodiaquine  </li>
-							<li>Chloroquine</li>
-							<li>Quinine</li>
-							<li>Mefloquine</li>
-							<li>Primaquine</li>
-							<li>Doxycycline</li>
-						</ul>
-							
-							
-					</div>
-				</div>
 			</div>
-			
-		</div>
+		</div>	
+						
+	
 	</section><!--/#do_action-->
-
+	
 	<!--/Footer-->
 	<script type="text/javascript">
 	function diognose()
@@ -231,10 +304,160 @@
 	}
 	
 	</script>
-    <script src="js/jquery.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
+<!--	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery.scrollUp.min.js"></script>
     <script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/main.js"></script>-->
+	<script>
+    $(document).ready(function() {
+		//////$("#formOne input[type='checkbox']").attr('checked','checked')
+       //alert('working');
+	   var byProperty = [], byColor = [], byLocation = [];
+		
+		$("input[name=fl-colour]").on( "change", function() {
+			
+			if (this.checked) byProperty.push("[data-category~='" + $(this).attr("value") + "']");
+			else removeA(byProperty, "[data-category~='" + $(this).attr("value") + "']");
+			//$("#showResult").show();
+		});
+		
+		$("input[name=fl-size]").on( "change", function() {
+			if (this.checked) byColor.push("[data-category~='" + $(this).attr("value") + "']");
+			else removeA(byColor, "[data-category~='" + $(this).attr("value") + "']");
+		});
+		
+		$("input[name=fl-cont]").on( "change", function() {
+			if (this.checked) byLocation.push("[data-category~='" + $(this).attr("value") + "']");
+			else removeA(byLocation, "[data-category~='" + $(this).attr("value") + "']");
+		});
+		
+		$("input").on( "change", function() {
+			var str = "Include items \n";
+			var selector = '', cselector = '', nselector = '';
+					
+			var $lis = $('.flowers > div'),
+				$checked = $('input:checked');	
+				
+			if ($checked.length) {	
+			
+				if (byProperty.length) {		
+					if (str == "Include items \n") {
+						str += "    " + "with (" +  byProperty.join(',') + ")\n";				
+						$($('input[name=fl-colour]:checked')).each(function(index, byProperty){
+							if(selector === '') {
+								selector += "[data-category~='" + byProperty.id + "']";  					
+							} else {
+								selector += ",[data-category~='" + byProperty.id + "']";	
+							}				 
+						});					
+					} else {
+						str += "    AND " + "with (" +  byProperty.join(' OR ') + ")\n";				
+						$($('input[name=fl-size]:checked')).each(function(index, byProperty){
+							selector += "[data-category~='" + byProperty.id + "']";
+						});
+					}							
+				}
+				
+				if (byColor.length) {						
+					if (str == "Include items \n") {
+						str += "    " + "with (" +  byColor.join(' OR ') + ")\n";					
+						$($('input[name=fl-size]:checked')).each(function(index, byColor){
+							if(selector === '') {
+								selector += "[data-category~='" + byColor.id + "']";  					
+							} else {
+								selector += ",[data-category~='" + byColor.id + "']";	
+							}				 
+						});					
+					} else {
+						str += "    AND " + "with (" +  byColor.join(' OR ') + ")\n";				
+						$($('input[name=fl-size]:checked')).each(function(index, byColor){
+							if(cselector === '') {
+								cselector += "[data-category~='" + byColor.id + "']";  					
+							} else {
+								cselector += ",[data-category~='" + byColor.id + "']";	
+							}					
+						});
+					}			
+				}
+				
+				if (byLocation.length) {			
+					if (str == "Include items \n") {
+						str += "    " + "with (" +  byLocation.join(' OR ') + ")\n";				
+						$($('input[name=fl-cont]:checked')).each(function(index, byLocation){
+							if(selector === '') {
+								selector += "[data-category~='" + byLocation.id + "']";  					
+							} else {
+								selector += ",[data-category~='" + byLocation.id + "']";	
+							}				 
+						});				
+					} else {
+						str += "    AND " + "with (" +  byLocation.join(' OR ') + ")\n";				
+						$($('input[name=fl-cont]:checked')).each(function(index, byLocation){
+							if(nselector === '') {
+								nselector += "[data-category~='" + byLocation.id + "']";  					
+							} else {
+								nselector += ",[data-category~='" + byLocation.id + "']";	
+							}	
+						});
+					}			 
+				}
+				
+				$lis.hide(); 
+				console.log(selector);
+				console.log(cselector);
+				console.log(nselector);
+				
+				if (cselector === '' && nselector === '') {			
+					$('.flowers > div').filter(selector).show();
+				} else if (cselector === '') {
+					$('.flowers > div').filter(selector).filter(nselector).show();
+				} else if (nselector === '') {
+					$('.flowers > div').filter(selector).filter(cselector).show();
+				} else {
+					$('.flowers > div').filter(selector).filter(cselector).filter(nselector).show();
+				}
+				
+			} else {
+				$lis.show();
+			}	
+								  
+			$("#result").html(str);	
+	
+		});
+		
+		function removeA(arr) {
+			var what, a = arguments, L = a.length, ax;
+			while (L > 1 && arr.length) {
+				what = a[--L];
+				while ((ax= arr.indexOf(what)) !== -1) {
+					arr.splice(ax, 1);
+				}
+			}
+			return arr;
+		}
+    });
+	
+	  $(document).ready(function() {
+	
+    $('.accordionButton').click(function() {
+        $('.accordionButton').removeClass('on');
+        $('.accordionContent').slideUp('normal');
+        $('.plusMinus').text('+');
+        if($(this).next().is(':hidden') == true) {
+            $(this).addClass('on');
+            $(this).next().slideDown('normal');
+            $(this).children('.plusMinus').text('-');
+         } 
+     });
+    $('.accordionButton').mouseover(function() {
+        $(this).addClass('over');
+    }).mouseout(function() {
+        $(this).removeClass('over');
+    });
+    $('.accordionContent').hide();
+    
+});
+    </script>
 </body>
 </html>
